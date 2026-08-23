@@ -85,7 +85,7 @@ function doGet(e) {
   // FUNGSI 1: Ketika URL Web App dibuka normal -> tampilkan index.html
   var output = HtmlService.createTemplateFromFile('index')
     .evaluate()
-    .setTitle('Creator Portfolio & Rate Card')
+    .setTitle('Creator Portfolio & Rate Card – Deep Burgundy')
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
   return output;
 }
